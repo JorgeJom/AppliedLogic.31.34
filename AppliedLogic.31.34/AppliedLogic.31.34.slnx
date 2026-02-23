@@ -2,6 +2,9 @@
   <Folder Name="/31/">
     <Project Path="lowerTriangular/lowerTriangular.csproj" />
   </Folder>
+  <Folder Name="/34/">
+    <Project Path="Hourglass/Hourglass.csproj" Id="458615e6-9aeb-4cd4-be93-ae344e143c95" />
+  </Folder>
   <Folder Name="/Shared/">
     <Project Path="Shared/Shared.csproj" />
   </Folder>
