@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/31/">
+    <Project Path="lowerTriangular/lowerTriangular.csproj" />
+  </Folder>
+  <Folder Name="/Shared/">
+    <Project Path="Shared/Shared.csproj" />
+  </Folder>
+</Solution>
