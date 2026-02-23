@@ -24,26 +24,24 @@ do
         }
     }
 
-    // Mostrar matriz completa
     Console.WriteLine("\nMatriz completa:\n");
 
     for (int i = 0; i < n; i++)
     {
         for (int j = 0; j < n; j++)
         {
-            Console.Write(matrix[i, j] + " ");
+            Console.Write($"{matrix[i, j],4}");
         }
         Console.WriteLine();
     }
 
-    // Mostrar triangular inferior
     Console.WriteLine("\nTriangular inferior:\n");
 
     for (int i = 0; i < n; i++)
     {
         for (int j = 0; j <= i; j++)
         {
-            Console.Write(matrix[i, j] + " ");
+            Console.Write($"{matrix[i, j],4}");
         }
         Console.WriteLine();
     }
