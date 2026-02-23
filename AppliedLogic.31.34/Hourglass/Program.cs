@@ -15,7 +15,6 @@ do
 
     int[,] matrix = new int[n, n];
 
-    // Llenar matriz
     for (int i = 0; i < n; i++)
     {
         for (int j = 0; j < n; j++)
@@ -35,7 +34,6 @@ do
         Console.WriteLine();
     }
 
-    // Mostrar reloj de arena
     Console.WriteLine("RELOJ DE ARENA");
 
     int mitad = n / 2;
@@ -56,7 +54,6 @@ do
             colFin = i;
         }
 
-        // Centrado
         int espacios = colInicio * width;
         Console.Write(new string(' ', espacios));
 
