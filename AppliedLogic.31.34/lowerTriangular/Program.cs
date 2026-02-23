@@ -30,7 +30,7 @@ do
     {
         for (int j = 0; j < n; j++)
         {
-            Console.Write($"{matrix[i, j],4}");
+            Console.Write($"{matrix[i, j],3}");
         }
         Console.WriteLine();
     }
@@ -41,7 +41,7 @@ do
     {
         for (int j = 0; j <= i; j++)
         {
-            Console.Write($"{matrix[i, j],4}");
+            Console.Write($"{matrix[i, j],3}");
         }
         Console.WriteLine();
     }
